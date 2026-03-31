@@ -29,6 +29,4 @@ Većina mojih beleški se oslanja na **Excalidraw** fajlove. Bez ovog plugina, v
 
 ---
 
-**Luka Kudra** *Freelance Web Developer | EE Student | Linux Enthusiast*
-
 [GitHub @Luka-Kudra](https://github.com/Luka-Kudra)
