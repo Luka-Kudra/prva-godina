@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Brza Instalacija
+## 🚀 Instalacija
 
 1.  **Instalirajte Obsidian**: [Preuzmi ovde](https://obsidian.md/download)
 2.  **Klonirajte repozitorijum**:
@@ -16,7 +16,7 @@
 
 ---
 
-## 🎨Excalidraw Setup
+## 🎨 Excalidraw Setup
 
 Većina mojih beleški se oslanja na **Excalidraw** fajlove. Bez ovog plugina, videćete samo sirovi JSON kod umesto crteža.
 
