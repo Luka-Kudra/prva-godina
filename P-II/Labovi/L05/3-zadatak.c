@@ -3,7 +3,7 @@
  * 
  * KAKO POKRENUTI:
  *   gcc 3-zadatak.c -o 3-zadatak
- *   3-zadatak unos brojevi.bin
+ *   .\3-zadatak unos brojevi.bin
  *   3-zadatak citanje brojevi.bin
  * 
  * ŠТА ЈЕ POTREBNO:

@@ -3,8 +3,8 @@
  * 
  * KAKO POKRENUTI:
  *   gcc 1-zadatak.c -o 1-zadatak
- *   1-zadatak unos imenik.bin
- *   1-zadatak citanje imenik.bin
+ *   .\1-zadatak unos imenik.bin
+ *   .\1-zadatak citanje imenik.bin
  * 
  * ŠТА ЈЕ POTREBNO:
  *   - Za unos: program će pitati korisnika da unese ime, prezime i broj telefona

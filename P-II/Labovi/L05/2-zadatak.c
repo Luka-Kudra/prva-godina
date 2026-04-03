@@ -3,8 +3,8 @@
  * 
  * KAKO POKRENUTI:
  *   gcc 2-zadatak.c -o 2-zadatak
- *   2-zadatak unos tekst.bin
- *   2-zadatak citanje tekst.bin
+ *   .\2-zadatak unos tekst.bin
+ *   .\2-zadatak citanje tekst.bin
  * 
  * ŠТА ЈЕ POTREBNO:
  *   - Za unos: korisnik unosi tekst, koji se šifruje s Cezarovom šifrom (pomeraj 3)

@@ -3,7 +3,7 @@
  * 
  * KAKO POKRENUTI:
  *   gcc 2-zadatak.c -o 2-zadatak
- *   2-zadatak KRUGOVI.TXT
+ *   .\2-zadatak KRUGOVI.TXT
  * 
  * OČEKIVANI ISPIS:
  *   - Na stdout: koordinate i polupročnik kruga s najvećom površinom

@@ -3,7 +3,7 @@
  * 
  * KAKO POKRENUTI:
  *   gcc 3-zadatak.c -o 3-zadatak
- *   3-zadatak ARTIKLI.TXT
+ *   .\3-zadatak ARTIKLI.TXT
  * 
  * ŠТА ЈЕ POTREBNO:
  *   - Program će trebati od korisnika da unese:
