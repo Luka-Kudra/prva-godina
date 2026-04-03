@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 
     FILE *file = fopen(argv[1], "r");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", argv[1]);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", argv[1]);
         return 1;
     }
 
@@ -52,10 +52,10 @@ int main(int argc, char *argv[]) {
 
     // Ispis rezultata
     if (foundCircle) {
-        printf("Najveću površinu (P=%.3f) ima krug: (%.3f,%.3f,%.3f)\n", 
+        printf("Najvecu povrsinu (P=%.3f) ima krug: (%.3f,%.3f,%.3f)\n", 
                maxArea, maxX, maxY, maxR);
     } else {
-        printf("Datoteka ne sadrži krugove.\n");
+        printf("Datoteka ne sadrzi krugove.\n");
     }
 
     return 0;

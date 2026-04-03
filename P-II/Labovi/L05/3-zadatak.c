@@ -46,13 +46,13 @@ int kompajruj_opadajuce(const void *a, const void *b) {
 void unos_podataka(const char *naziv_datoteke) {
     FILE *file = fopen(naziv_datoteke, "wb");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
         return;
     }
 
     int *brojevi = (int *)malloc(10 * sizeof(int));
     if (brojevi == NULL) {
-        fprintf(stderr, "Greška: Nedovoljna memorija\n");
+        fprintf(stderr, "Greska: Nedovoljna memorija\n");
         fclose(file);
         return;
     }
@@ -69,7 +69,7 @@ void unos_podataka(const char *naziv_datoteke) {
             kapacitet *= 2;
             int *temp = (int *)realloc(brojevi, kapacitet * sizeof(int));
             if (temp == NULL) {
-                fprintf(stderr, "Greška: Nedovoljna memorija\n");
+                fprintf(stderr, "Greska: Nedovoljna memorija\n");
                 free(brojevi);
                 fclose(file);
                 return;
@@ -92,35 +92,35 @@ void unos_podataka(const char *naziv_datoteke) {
     fclose(file);
     free(brojevi);
 
-    printf("Uspješno sprema %d brojeva u datoteku '%s' (sortirano opadajuće)\n", 
+    printf("Uspjesno sprema %d brojeva u datoteku '%s' (sortirano opadajuće)\n", 
            broj_elemenata, naziv_datoteke);
 }
 
 void citanje_podataka(const char *naziv_datoteke) {
     FILE *file = fopen(naziv_datoteke, "rb");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
         return;
     }
 
     // Čitamo broj elemenata
     int broj_elemenata;
     if (fread(&broj_elemenata, sizeof(int), 1, file) != 1) {
-        fprintf(stderr, "Greška: Datoteka je prazna ili oštećena\n");
+        fprintf(stderr, "Greska: Datoteka je prazna ili oštećena\n");
         fclose(file);
         return;
     }
 
     int *brojevi = (int *)malloc(broj_elemenata * sizeof(int));
     if (brojevi == NULL) {
-        fprintf(stderr, "Greška: Nedovoljna memorija\n");
+        fprintf(stderr, "Greska: Nedovoljna memorija\n");
         fclose(file);
         return;
     }
 
     // Čitamo sve brojeve
     if (fread(brojevi, sizeof(int), broj_elemenata, file) != broj_elemenata) {
-        fprintf(stderr, "Greška: Greška pri čitanju datoteke\n");
+        fprintf(stderr, "Greska: Greska pri citanju datoteke\n");
         free(brojevi);
         fclose(file);
         return;
@@ -129,7 +129,7 @@ void citanje_podataka(const char *naziv_datoteke) {
     fclose(file);
 
     // Ispis podataka
-    printf("Sadržaj datoteke '%s':\n", naziv_datoteke);
+    printf("Sadrzaj datoteke '%s':\n", naziv_datoteke);
     printf("====================================\n");
 
     for (int i = 0; i < broj_elemenata; i++) {

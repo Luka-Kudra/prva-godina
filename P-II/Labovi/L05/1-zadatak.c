@@ -39,7 +39,7 @@ typedef struct {
 void unos_podataka(const char *naziv_datoteke) {
     FILE *file = fopen(naziv_datoteke, "wb");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
         return;
     }
 
@@ -47,7 +47,7 @@ void unos_podataka(const char *naziv_datoteke) {
     int broj_osoba = 0;
 
     printf("Unesite podatke o osobama (ime prezime broj_telefona).\n");
-    printf("Za završetak unesite EOF (Ctrl+Z na Windows-u ili Ctrl+D na Linux-u):\n\n");
+    printf("Za zavrsetak unesite EOF (Ctrl+Z na Windows-u ili Ctrl+D na Linux-u):\n\n");
 
     while (scanf("%49s %49s %19s", osoba.ime, osoba.prezime, osoba.broj_telefona) == 3) {
         fwrite(&osoba, sizeof(Osoba), 1, file);
@@ -61,14 +61,14 @@ void unos_podataka(const char *naziv_datoteke) {
 void citanje_podataka(const char *naziv_datoteke) {
     FILE *file = fopen(naziv_datoteke, "rb");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
         return;
     }
 
     Osoba osoba;
     int broj_osoba = 0;
 
-    printf("Sadržaj datoteke '%s':\n", naziv_datoteke);
+    printf("Sadrzaj datoteke '%s':\n", naziv_datoteke);
     printf("====================================\n");
 
     while (fread(&osoba, sizeof(Osoba), 1, file) == 1) {

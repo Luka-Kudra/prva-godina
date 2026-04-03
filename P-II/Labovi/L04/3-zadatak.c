@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
 
     FILE *outputFile = fopen(argv[1], "w");
     if (outputFile == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", argv[1]);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", argv[1]);
         return 1;
     }
 
@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 
     Artikal *artikli = (Artikal *)malloc(n * sizeof(Artikal));
     if (artikli == NULL) {
-        fprintf(stderr, "Greška: Nedovoljna memorija\n");
+        fprintf(stderr, "Greska: Nedovoljna memorija\n");
         fclose(outputFile);
         return 1;
     }

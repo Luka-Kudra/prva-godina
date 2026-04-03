@@ -3,7 +3,7 @@
  * 
  * KAKO POKRENUTI:
  *   gcc 1-zadatak.c -o 1-zadatak
- *   1-zadatak A.TXT B.TXT
+ *   .\1-zadatak A.TXT B.TXT
  * 
  * OČEKIVANI ISPIS:
  *   - U datoteku B.TXT: sve riječi odvojene u nove linije:
@@ -31,13 +31,13 @@ int main(int argc, char *argv[]) {
 
     FILE *inputFile = fopen(argv[1], "r");
     if (inputFile == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti ulaznu datoteku '%s'\n", argv[1]);
+        fprintf(stderr, "Greska: Ne mogu otvoriti ulaznu datoteku '%s'\n", argv[1]);
         return 1;
     }
 
     FILE *outputFile = fopen(argv[2], "w");
     if (outputFile == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti izlaznu datoteku '%s'\n", argv[2]);
+        fprintf(stderr, "Greska: Ne mogu otvoriti izlaznu datoteku '%s'\n", argv[2]);
         fclose(inputFile);
         return 1;
     }

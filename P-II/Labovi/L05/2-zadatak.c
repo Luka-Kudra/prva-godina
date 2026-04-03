@@ -53,11 +53,11 @@ char desifruj_karakter(char c) {
 void unos_teksta(const char *naziv_datoteke) {
     FILE *file = fopen(naziv_datoteke, "wb");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
         return;
     }
 
-    printf("Unesite tekst (Ctrl+Z pa Enter za završetak):\n");
+    printf("Unesite tekst (Ctrl+Z pa Enter za zavrsetak):\n");
 
     char linija[1024];
     while (fgets(linija, sizeof(linija), stdin) != NULL) {
@@ -71,13 +71,13 @@ void unos_teksta(const char *naziv_datoteke) {
     }
 
     fclose(file);
-    printf("Tekst je šifrovan i spreman u datoteku '%s'\n", naziv_datoteke);
+    printf("Tekst je sifrovan i spreman u datoteku '%s'\n", naziv_datoteke);
 }
 
 void prikazi_teksta(const char *naziv_datoteke) {
     FILE *file = fopen(naziv_datoteke, "rb");
     if (file == NULL) {
-        fprintf(stderr, "Greška: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
+        fprintf(stderr, "Greska: Ne mogu otvoriti datoteku '%s'\n", naziv_datoteke);
         return;
     }
 
@@ -101,8 +101,8 @@ void prikazi_teksta(const char *naziv_datoteke) {
 int main(int argc, char *argv[]) {
     if (argc < 2) {
         fprintf(stderr, "Upotreba: %s <unos|citanje> <datoteka>\n", argv[0]);
-        fprintf(stderr, "  unos    - unos novog teksta (šifruje se)\n");
-        fprintf(stderr, "  citanje - prikaz šifrovanog teksta iz datoteke (dešifruje se)\n");
+        fprintf(stderr, "  unos    - unos novog teksta (sifruje se)\n");
+        fprintf(stderr, "  citanje - prikaz šifrovanog teksta iz datoteke (desifruje se)\n");
         return 1;
     }
 
