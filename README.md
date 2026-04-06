@@ -16,16 +16,22 @@
 
 ---
 
-## 🎨 Excalidraw Setup
+## 🛠️ Alati po predmetima
 
-Većina beleški iz osnova se oslanja na **Excalidraw** fajlove. Bez ovog plugina, videćete samo sirovi JSON kod umesto crteža.
+Beleške su organizovane koristeći različite alate
 
-**Da biste pravilno videli crteze:**
+### ⚡ Osnove elektrotehnike (Obsidian + Excalidraw)
+Beleške iz ovog predmeta se u velikoj meri oslanjaju na vizuelne prikaze. Koristio sam **Excalidraw** za crtanje šema i dijagrama direktno unutar Obsidiana. Bez ovog plugina, videćete samo sirovi JSON kod umesto crteža.
+
+**Da biste pravilno videli crteže:**
 1. Idite u **Settings** -> **Community plugins**.
 2. Isključite *Safe Mode* i kliknite na **Browse**.
 3. Pretražite i instalirajte **Excalidraw**.
 4. Kliknite na **Enable**.
 5. *Svi `.excalidraw` i `.md` crteži će se sada automatski renderovati.*
+
+### 💻 Programiranje (VS Code)
+Dok su osnove u Obsidianu, zadaci za **Programiranje** su rađeni u **VS Code**. Za najbolji pregled koda, highlightovanje sintakse i pokretanje primera, preporučujem da taj deo repozitorijuma otvorite u VS Code-u.
 
 ---
 
