@@ -18,7 +18,7 @@
 
 ## 🎨 Excalidraw Setup
 
-Većina mojih beleški se oslanja na **Excalidraw** fajlove. Bez ovog plugina, videćete samo sirovi JSON kod umesto crteža.
+Većina beleški iz osnova se oslanja na **Excalidraw** fajlove. Bez ovog plugina, videćete samo sirovi JSON kod umesto crteža.
 
 **Da biste pravilno videli crteze:**
 1. Idite u **Settings** -> **Community plugins**.
