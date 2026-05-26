@@ -7,4 +7,5 @@ printf("4:%x\n",sizeof(s));
 printf("5:%d\n",s.i>>31);
 printf("6:%d\n",(s.i&0x7fffffff)>>23);
 printf("7:%p\n",&s+1);
-double *ps = (double) 
+double *ps = (double*)&s;
+printf("8:%p\n",++ps);
