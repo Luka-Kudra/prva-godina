@@ -51,12 +51,13 @@ https://youtu.be/j36RW2QdjBQ?si=GOI0zEnLYxep6o3y
 
 ## Gej – Lisakov zakon
 
-
+![[Pasted image 20260602100305.png]]
 ![[Pasted image 20260602093620.png]]
 
 https://youtu.be/rlU0QJeQ2aY?si=B-S_aLM3sln53O_R
 
 ## Određivanje žižne daljine sočiva – Beselova metoda
+
 
 ![[Pasted image 20260602094245.png]]
 
