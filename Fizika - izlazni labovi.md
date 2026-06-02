@@ -17,5 +17,7 @@ https://youtu.be/0D8XfW856nw?si=p0vqZLv4OnjNrGTY
 
 ![[Pasted image 20260602090824.png]]
 
-##Određivanje torzione konstante i modula smicanja
+## Određivanje torzione konstante i modula smicanja
+
+
 
