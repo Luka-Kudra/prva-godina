@@ -47,4 +47,7 @@ https://youtu.be/VCg6MjVYvO4?si=kij1vt188xLLRJQT
 
 https://youtu.be/j36RW2QdjBQ?si=GOI0zEnLYxep6o3y
 
-## 
+## Gej – Lisakov zakon
+
+![[Pasted image 20260602093620.png]]
+
