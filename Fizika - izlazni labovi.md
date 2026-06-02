@@ -1,5 +1,5 @@
 
-## **ODREDJIVANJE GUSTINE ČVRSTIH TJELA** - HIDROSTATIČKA VAGA
+## Određivanje gustine čvrstih tijela pomoću hidrostatičke vage
 
 ![[Pasted image 20260602090032.png]]
 
