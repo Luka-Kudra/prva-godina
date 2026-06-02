@@ -1,7 +1,7 @@
 
 ## Određivanje gustine čvrstih tijela pomoću hidrostatičke vage
 
-
+![[Pasted image 20260602094759.png]]
 ![[Pasted image 20260602090253.png]]
 
 https://youtu.be/XWZExTDUKHc?si=0oOGpnixj6aI4iOi
