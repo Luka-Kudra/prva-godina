@@ -41,4 +41,5 @@ https://youtu.be/Bn8s0h02jWo?si=_n99A_MzC6bG_L6t
 
 https://youtu.be/VCg6MjVYvO4?si=kij1vt188xLLRJQT
 
-## 
+## Određivanje koeficijenta površinskog napona tečnosti – metoda kapilare
+
