@@ -20,5 +20,9 @@ https://youtu.be/0D8XfW856nw?si=p0vqZLv4OnjNrGTY
 ## Određivanje torzione konstante i modula smicanja
 
 ![[Pasted image 20260602091022.png]]
+
+
 ![[Pasted image 20260602091051.png]]
+![[Pasted image 20260602091051.png]]
+
 
