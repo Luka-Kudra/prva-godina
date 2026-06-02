@@ -15,13 +15,14 @@ https://youtu.be/0D8XfW856nw?si=p0vqZLv4OnjNrGTY
 
 ## Određivanje torzione konstante i modula smicanja
 
-
+![[Pasted image 20260602095132.png]]
 ![[Pasted image 20260602091051.png]]
 
 https://youtu.be/7gbIUeY1RaM?si=5Ij9XLSTW_vmh0J
 
 
 ## Određivanje koeficijenta viskoznosti – Štoksova metoda
+
 
 ![[Pasted image 20260602091650.png]]
 
