@@ -1,16 +1,18 @@
 
 ## Određivanje gustine čvrstih tijela pomoću hidrostatičke vage
 
-https://youtu.be/XWZExTDUKHc?si=0oOGpnixj6aI4iOi
 
 ![[Pasted image 20260602090253.png]]
+
+https://youtu.be/XWZExTDUKHc?si=0oOGpnixj6aI4iOi
 
 ## Određivanje gravitacionog ubrzanja pomoću matematičkog klatna
 
 
-https://youtu.be/0D8XfW856nw?si=p0vqZLv4OnjNrGTY
 
 ![[Pasted image 20260602090824.png]]
+
+https://youtu.be/0D8XfW856nw?si=p0vqZLv4OnjNrGTY
 
 ## Određivanje torzione konstante i modula smicanja
 
