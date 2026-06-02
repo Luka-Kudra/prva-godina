@@ -27,3 +27,4 @@ https://youtu.be/7gbIUeY1RaM?si=5Ij9XLSTW_vmh0J
 
 ![[Pasted image 20260602091650.png]]
 
+https://youtu.be/Bn8s0h02jWo?si=_n99A_MzC6bG_L6t
