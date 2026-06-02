@@ -65,7 +65,7 @@ https://youtu.be/VCg6MjVYvO4?si=kij1vt188xLLRJQT
 
 ## Određivanje talasne dužine svjetlosti pomoću optičke rešetke
 
-44
+![[Pasted image 20260602100448.png]]
 ![[Pasted image 20260602093948.png]]
 
 https://youtu.be/pYLznQ8EXUg?si=R2UvxFlpK0aI1GWp
