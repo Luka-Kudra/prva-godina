@@ -51,3 +51,5 @@ https://youtu.be/j36RW2QdjBQ?si=GOI0zEnLYxep6o3y
 
 ![[Pasted image 20260602093620.png]]
 
+https://youtu.be/rlU0QJeQ2aY?si=B-S_aLM3sln53O_R
+
