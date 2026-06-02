@@ -30,6 +30,7 @@ https://youtu.be/Bn8s0h02jWo?si=_n99A_MzC6bG_L6t
 
 ## Određivanje konstante hlađenja
 
+
 ![[Pasted image 20260602092723.png]]
 
 
