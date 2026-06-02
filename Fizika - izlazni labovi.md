@@ -45,3 +45,6 @@ https://youtu.be/VCg6MjVYvO4?si=kij1vt188xLLRJQT
 
 ![[Pasted image 20260602093426.png]]
 
+https://youtu.be/j36RW2QdjBQ?si=GOI0zEnLYxep6o3y
+
+## 
