@@ -28,6 +28,7 @@ int main()
 
 
 DRUGI 
+
 `#include <stdio.h>
 
 int main() 
@@ -56,6 +57,7 @@ int main()
 }`
 
 TRECI 
+
 `#include <stdio.h>
 
 int main() 
